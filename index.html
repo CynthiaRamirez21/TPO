@@ -1,0 +1,107 @@
+<html>
+    <head>
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+		<title>Planeta Sano</title>
+        <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+        <link href="css/estilo.css" rel="stylesheet">
+        <link href="css/reset.css" rel="stylesheet"> <!-- CSS reset -->
+		<link href="css/aos.css" rel="stylesheet">
+
+		<script src="js/aos.js"></script>
+		<script src="js/validacion.js"></script>
+    </head>
+
+    <body>
+    
+        <section class="seccionTitulo">
+            <div data-aos="fade-right">
+				<div class="principal">
+					<div class="interno">
+						<h1 class="principal">Quienes somos?</h1>
+
+						<p class="principal">
+							Somos un grupo de ecologistas que queremos proteger el planeta. Por esto queremos enseñarte todo lo que podes hacer con tu basura. 
+							También nos dedicamos a la reutilización de la basura que producimos. Te invitamos a ayudar a tu planeta (tu hogar) aportando tu 
+							granito de arena.
+						</p>
+					</div>
+				</div>
+            </div>
+        </section>
+
+		<section class="seccionCarton">
+            <div data-aos="fade-right">
+                <div class="principal">
+					<div class="interno">
+						<h1 class="principal">Cartones</h1>
+
+						<p class="principal">
+							Podemos reciclar el carton y reutilizarlo. Tenemos algunas ideas que queremos enseñarte...
+						</p>
+						
+						<a href="pages/cartones.html" class="btn btn-primary btn-lg principal">Ver más...</a>
+					</div>
+				</div>
+            </div>
+        </section>
+    
+        <section class="seccionPlastico">
+            <div data-aos="zoom-in-up">
+                <div class="principal">
+					<div class="interno">
+						<h1 class="principal">Plástico</h1>
+
+						<p class="principal">
+							Si observamos a nuestro alrededor mas del 90 % de las cosas que utilizamos tienen plástico. Es increible la 
+							cantidad de plástico sin reciclar que existe. Tenemos algunas ideas de como reciclarlo.
+						</p>
+
+						<a href="pages/plasticos.html" class="btn btn-primary btn-lg principal">Ver más...</a>
+					</div>
+				</div>
+            </div>
+        </section>
+		
+		<section class="seccionCompost">
+            <div data-aos="fade-right">
+                <div class="principal">
+					<div class="interno">
+						<h1 class="principal">Compost</h1>
+
+						<p class="principal">
+							El compost esta compuesto por toda la materia orgánica de tu basura. Te preguntaras que utilidad puedes darle a 
+							este compost?
+						</p>
+						
+						<a href="pages/compost.html" class="btn btn-primary btn-lg principal">Ver más...</a>
+					</div>
+				</div>
+            </div>
+        </section>
+
+		<section class="seccionContacto">
+            <div data-aos="fade-right">
+				<div class="principal">
+					<div class="internoContacto">
+						<h1 class="principal">Contacto</h1>
+						<form name="formContacto" onsubmit="return validateForm()">      
+							<input name="nombre" type="text" class="feedback-input" placeholder="Nombre" />   
+							<input name="email" type="text" class="feedback-input" placeholder="E-mail" />
+							<textarea name="mensaje" class="feedback-input" placeholder="Mensaje"></textarea>
+							<input type="submit" value="Enviar"/>
+						</form>
+					</div>
+				</div>
+            </div>
+        </section>
+
+		<script>
+		  AOS.init();
+		</script>
+
+    </body>
+</html>
